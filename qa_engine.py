@@ -11,7 +11,7 @@ from langchain.docstore.document import Document
 load_dotenv()
 cohere_api_key = os.getenv("COHERE_API_KEY")
 
-# ✅ Shared LLM
+#  Shared LLM
 llm = Cohere(
     cohere_api_key=cohere_api_key,
     model="command-r-plus",
@@ -19,7 +19,7 @@ llm = Cohere(
     max_tokens=300
 )
 
-# ✅ For PDF/DOCX/Image documents
+#  For PDF/DOCX/Image documents
 def build_qa_chain(text):
     doc = Document(page_content=text)
 
@@ -40,7 +40,7 @@ def build_qa_chain(text):
     qa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever, chain_type="stuff")
     return qa_chain
 
-# ✅ For single clause + question (direct prompt)
+#  For single clause + question (direct prompt)
 def answer_clause_question(clause, question):
     prompt = f"""
 You are a helpful legal assistant. Below is a legal clause and a user's question.
