@@ -5,6 +5,9 @@ An AI-powered web application that simplifies complex legal documents, provides 
 Built using Streamlit, LangChain, Cohere LLM, and OCR tools.
 
 ---
+🚀 **Live App**: [Click here to try it!](https://legal-doc-simplifier.streamlit.app)
+
+---
 
 ## 🚀 Features
 
