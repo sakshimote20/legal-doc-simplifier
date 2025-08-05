@@ -7,4 +7,5 @@ pytesseract
 Pillow
 langchain
 faiss-cpu
+langchain-community
 
