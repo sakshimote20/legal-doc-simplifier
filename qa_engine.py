@@ -6,10 +6,13 @@ from langchain.vectorstores import FAISS
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains import RetrievalQA
 from langchain.docstore.document import Document
+import streamlit as st
 
 # Load .env
-load_dotenv()
-cohere_api_key = os.getenv("COHERE_API_KEY")
+#load_dotenv()
+#cohere_api_key = os.getenv("COHERE_API_KEY")
+cohere_api_key = st.secrets["COHERE_API_KEY"]
+
 
 #  Shared LLM
 llm = Cohere(
