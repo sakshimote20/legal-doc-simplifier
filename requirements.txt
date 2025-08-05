@@ -1,0 +1,10 @@
+streamlit
+cohere
+python-dotenv
+pdfplumber
+python-docx
+pytesseract
+Pillow
+langchain
+faiss-cpu
+
