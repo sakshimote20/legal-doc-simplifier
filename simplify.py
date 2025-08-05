@@ -1,4 +1,4 @@
-e# LLM logic using Cohere
+# LLM logic using Cohere
 import os
 import streamlit as st
 import cohere
