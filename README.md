@@ -53,7 +53,7 @@ legal-simplifier-app/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/legal-simplifier-app.git
+   git clone https://github.com/sakshimote20/legal-simplifier-app.git
    cd legal-simplifier-app
    ```
 
@@ -105,7 +105,7 @@ legal-simplifier-app/
 
 **Sakshi Mote**  
 3rd Year AI & Data Science Student  
-GitHub: [@sakshimote](https://github.com/yourgithub)
+GitHub: [@sakshimote](https://github.com/sakshimote20)
 
 ---
 
@@ -117,6 +117,3 @@ GitHub: [@sakshimote](https://github.com/yourgithub)
 
 ---
 
-## 📄 License
-
-MIT License. Free to use and modify.
