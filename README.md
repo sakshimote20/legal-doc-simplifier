@@ -104,7 +104,7 @@ legal-simplifier-app/
 ## 👩‍💻 Author
 
 **Sakshi Mote**  
-3rd Year AI & Data Science Student  
+4th Year AI & Data Science Student  
 GitHub: [@sakshimote](https://github.com/sakshimote20)
 
 ---
